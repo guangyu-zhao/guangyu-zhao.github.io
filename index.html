@@ -1,0 +1,39 @@
+---
+layout: home
+edit: 2022-07-29
+---
+<div class="user-details">
+<h2> Me and this website </h2>
+<p style="text-align: justify;"> &nbsp;&nbsp;&nbsp;&nbsp;I am an Undergraduate student at Tsinghua University majoring in EE. I built this website (source code <a href="https://github.com/TX-Leo/TX-Leo.github.io">here</a>) to share my notes and thoughts. You are always welcomed to comment on my posts for suggestions or discussions. You can learn more at the <a href="/about"> about page</a>. Below is the statistics of all the people who have visited the site by Clustrmaps.</p>
+<div class="analytics"  style="border: solid lightgrey; border-radius: 5px;">
+        <h3> Analytics </h3>
+        {% include clustrmap.html style="js" %}
+        <p> <small> If you are not seeing a map, please disable Ad block and refresh </small></p>
+</div>
+</div>
+
+<div class="permlinks">
+<h2>Recent Posts</h2>
+<dl>
+        {% for post in site.posts limit:3 %}
+        <dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
+        {% if post.description %}
+<dd style="text-align: justify">{{ post.description | markdownify }}
+        </dd>
+        {% endif %}
+        {% endfor %}
+        <p>... <a href="/blog">Full Posts List</a> </p>
+</dl>
+
+<h2>Contact Me </h2>
+<ul>
+    <li>Mail: tx.leo.wz@gmail.com</li>
+    <li>Github: http://github.com/TX-Leo</li>
+    <li>QQ: 1344683832 </li>
+    <li>Bilibili: TX_Leo</li>
+    <li>Youtube: Leo TX</li>
+    <li>Twitter: Leo TX</li>
+    <li>Facebook: Leo Wang</li>
+</ul>
+
+</div >

@@ -1,0 +1,9 @@
+{% if include.style == "js" %}  
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=fcfafa&w=300&t=tt&d=YjVNBwxJI26Tr-MdTFSNvI8uOKdPthOM9nyaHfB5Dks&co=2e5c7c&ct=c8d0e0&cmo=672887&cmn=bf1212"></script>
+{% elsif include.style == "hiddenpng" %}  
+<div hidden class="analytics" aria-hidden="true">
+	<img src='//clustrmaps.com/map_v2.png?cl=fcfafa&w=300&t=tt&d=YjVNBwxJI26Tr-MdTFSNvI8uOKdPthOM9nyaHfB5Dks&co=2e5c7c&ct=c8d0e0'/>
+</div>
+{% else %}
+	<img src='//clustrmaps.com/map_v2.png?cl=fcfafa&w=300&t=tt&d=YjVNBwxJI26Tr-MdTFSNvI8uOKdPthOM9nyaHfB5Dks&co=2e5c7c&ct=c8d0e0'/>
+{% endif %}
