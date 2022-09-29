@@ -1,13 +1,13 @@
 # About me
 
-I am a EE undergraduate at Tsinghua University. 
-I use this website to share my notes and what's in my mind.
-You are always welcomed to comment on my posts for suggestion or discussion.
-You can learn more about me [here](https://TX-Leo.github.io/about).
+I am an undergraduate student currently at Tsinghua University majoring in computer science. 
+I am eager to explore myself and the world. 
+This website records my daily life and my journey of acquiring knowledge briefly. 
+I wish this website could witness my growth and development.
 
 # About this website
 
-This website (source code [here](https://github.com/TX-Leo/TX-Leo.github.io)) uses these sources:
+This website (source code [here](https://github.com/guangyu-zhao/guangyu-zhao.github.io)) uses these sources:
 
 | Module                                                       | Mainly used in                                  | License/ TOS                                                 |
 | ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |

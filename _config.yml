@@ -1,25 +1,25 @@
 # Site settings
-title: Welcome to TX-Leo's Home  # homepage title
-description: I belong to Jesus.  #homepage description
+title: Tomorrow is another day  # homepage title
+description: Home of Guangyu Zhao  # homepage description
 baseurl: "" 
-url: "https://TX-Leo.github.io" 
+url: "https://guangyu-zhao.github.io" 
 
 # GitHub User settings
-username: TX-Leo
-github_username: TX-Leo
-user_description: I'm a THUEEer who devotes to freedom.
-user_title: EE Undergraduate
-email: tx.leo.wz@gmail.com
+username: guangyu-zhao
+github_username: guangyu-zhao
+user_description: An undergraduate from THU
+user_title: Undergraduate
+email: zgy20010917@gmail.com
 
 # Blog Author settings
 author:
-  name:           TX-Leo
+  name:           guangyu-zhao
   picture:        
-  email:          tx.leo.wz@gmail.com
-  description:    I'm a THUEEer who devotes to freedom.
+  email:          zhaogy20@mails.tsinghua.edu.cn, jellerode@outlook.com, zgy20010917@gmail.com
+  description:    An undergraduate from THU
   twitter:
   facebook:
-  github:         https://github.com/TX-Leo
+  github:         https://github.com/guangyu-zhao
   linkedin:
   # If you're forking this site, make sure you delete this entry!
   #clustrmap:      MlqUzlcZFdHetSQuxml5oHyt9RwVjZrsGbvyaRpMwgU
