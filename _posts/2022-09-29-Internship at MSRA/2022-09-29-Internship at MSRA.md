@@ -2,7 +2,6 @@
 title: Internship at MSRA
 edit: 2022-09-30
 status: Completed
-description: Intern at MSRA
 categories: work
 tags: work engineering
 ---
@@ -11,7 +10,7 @@ tags: work engineering
 
 Actually this internship started on May 10th and ended on August 19th. But considering the website is created after the day I checked out, I record this period of memory later.
 
-<img src="https://raw.githubusercontent.com/guangyu-zhao/guangyu-zhao.github.io/master/_posts/2022-09-29-Intern%20at%20MSRA/image/certificate.jpg" alt="certificate" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/guangyu-zhao/guangyu-zhao.github.io/master/_posts/2022-09-29-Internship%20at%20MSRA/image/certificate.jpg" alt="certificate" style="zoom:30%;" />
 
 ## Checking in
 
@@ -41,4 +40,4 @@ Microsoft also offered opportunities to socialize and enjoy ourselves. I went th
 
 On the day I checked out, I was enveloped by reluctance. But fortunately, I still have contact with some friends after leaving the company. This picture was taken with two of my friends, hoping our friendship could last longer.
 
-<img src="https://raw.githubusercontent.com/guangyu-zhao/guangyu-zhao.github.io/master/_posts/2022-09-29-Intern%20at%20MSRA/image/check out day.jpg" alt="check out day" style="zoom:30%;" />
+<img src="https://raw.githubusercontent.com/guangyu-zhao/guangyu-zhao.github.io/master/_posts/2022-09-29-Internship%20at%20MSRA/image/check out day.jpg" alt="check out day" style="zoom:30%;" />
