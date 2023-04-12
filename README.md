@@ -2,7 +2,6 @@
 
 I am an undergraduate student currently at Tsinghua University majoring in computer science. 
 I am eager to explore myself and the world. 
-This website records my daily life and my journey of acquiring knowledge briefly. 
 I wish this website could witness my growth and development.
 
 # About this website
