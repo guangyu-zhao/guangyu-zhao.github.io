@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage - Guangyu Zhao</title>
+  <meta name="description" content="Guangyu Zhao is a Ph.D. student at the School of Intelligence Science and Technology, Peking University, working on Embodied AI, Multi-Modal Models, and Sequence Modeling." />
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    // Apply stored theme before paint to avoid flash.
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <button id="theme-toggle" class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Toggle dark mode" title="Toggle dark mode">
+    <span class="theme-toggle__knob" aria-hidden="true"></span>
+    <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 7a5 5 0 100 10 5 5 0 000-10zm0-5a1 1 0 011 1v2a1 1 0 11-2 0V3a1 1 0 011-1zm0 17a1 1 0 011 1v2a1 1 0 11-2 0v-2a1 1 0 011-1zM3 11h2a1 1 0 110 2H3a1 1 0 110-2zm16 0h2a1 1 0 110 2h-2a1 1 0 110-2zM5.64 4.22l1.42 1.42a1 1 0 11-1.41 1.41L4.22 5.64a1 1 0 011.42-1.42zm12.73 12.73l1.41 1.41a1 1 0 11-1.41 1.41l-1.42-1.41a1 1 0 011.42-1.41zM4.22 18.36l1.42-1.41a1 1 0 011.41 1.41l-1.41 1.41a1 1 0 11-1.42-1.41zM16.95 5.64l1.41-1.42a1 1 0 011.42 1.42l-1.41 1.41a1 1 0 11-1.42-1.41z"/></svg>
+    <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/></svg>
+  </button>
+  <main class="container">
+
+    <!-- ============================ HEADER ============================ -->
+    <header class="hero">
+      <div class="hero__photo">
+        <img src="assets/portrait.png" alt="Portrait of Guangyu Zhao" />
+      </div>
+      <div class="hero__text">
+        <h1>Guangyu Zhao (赵光宇)</h1>
+        <p class="hero__role">
+          Ph.D. Student,
+          <span class="nowrap">School of Intelligence Science and Technology</span>
+          <br />
+          Peking University
+        </p>
+
+        <p class="hero__bio">
+          I am a second-year Ph.D. student at the School of Intelligence Science and Technology, Peking University,
+          advised by <a href="https://yiwuzhong.notion.site/homepage" target="_blank" rel="noopener">Yiwu Zhong</a>
+          and <a href="https://scholar.google.com/citations?user=KVzR1XEAAAAJ" target="_blank" rel="noopener">Yitao Liang</a>.
+          Previously, I obtained my B.E. degree from the
+          Department of Computer Science and Technology, Tsinghua University.
+          My research interests include <strong>Embodied AI</strong>,
+          <strong>Multi-Modal Models</strong>, and <strong>Sequence Modeling</strong>.
+        </p>
+
+        <ul class="hero__links">
+          <li>
+            <a href="mailto:zhaogy24@stu.pku.edu.cn" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4v10h16V8l-8 5L4 8zm16-2H4l8 5 8-5z"/></svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.com/citations?user=8WSAVCsAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1L1 5l11 4 9.27-3.37V12h1.73V5L12 1zM5 9.18v4l7 3.82 7-3.82v-4l-7 3.82L5 9.18zm7 9.62a4 4 0 100-8 4 4 0 000 8z"/></svg>
+              <span>Google Scholar</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/guangyu-zhao" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.06-.02-2.07-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.66-.3-5.47-1.33-5.47-5.94 0-1.31.47-2.39 1.24-3.23-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.92 1.24 3.23 0 4.62-2.81 5.64-5.49 5.93.43.37.81 1.1.81 2.22 0 1.6-.01 2.89-.01 3.28 0 .32.22.7.83.58A12 12 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- ============================ NEWS ============================ -->
+    <section id="news" class="section">
+      <h2>🎉&nbsp;&nbsp;News</h2>
+      <ul class="news">
+        <li>
+          <span class="news__date">Apr 2026</span>
+          <span class="news__body">
+            <a href="https://preference-goal-tuning.github.io/" target="_blank" rel="noopener"><em>PGT</em></a>
+            is accepted to <strong>ICML 2026</strong>.
+          </span>
+        </li>
+        <li>
+          <span class="news__date">Mar 2026</span>
+          <span class="news__body">
+            Our
+            <a href="https://mahjong-robot-system.github.io/" target="_blank" rel="noopener"><em>Mahjong Robot System</em></a>
+            wins the <strong>ModelScope EAI-100 Annual Top-10 Demo</strong>.
+          </span>
+        </li>
+        <li>
+          <span class="news__date">Feb 2026</span>
+          <span class="news__body">
+            <a href="https://abstaineqa.github.io/" target="_blank" rel="noopener"><em>AbstainEQA</em></a>
+            is accepted to <strong>CVPR 2026 (Highlight)</strong>.
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============================ PUBLICATIONS ============================ -->
+    <section id="publications" class="section">
+      <h2>📑&nbsp;&nbsp;Publications</h2>
+      <ol class="pubs">
+        <!-- 1. DROL -->
+        <li class="pub">
+          <a class="pub__thumb" href="https://muzhancun.github.io/preprints/DROL/" target="_blank" rel="noopener">
+            <img src="assets/papers/drol.png" alt="DROL teaser" loading="lazy" />
+          </a>
+          <div class="pub__body">
+            <h3 class="pub__title">
+              <a href="https://muzhancun.github.io/preprints/DROL/" target="_blank" rel="noopener">
+                Preserve Support, Not Correspondence: Dynamic Routing for Offline Reinforcement Learning
+              </a>
+            </h3>
+            <p class="pub__authors">
+              Zhancun Mu, <strong>Guangyu Zhao</strong>, Yiwu Zhong, Chi Zhang<sup>✉</sup>
+            </p>
+            <p class="pub__venue">
+              <span class="venue venue--review">Under review at NeurIPS 2026</span>
+            </p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2604.22229" target="_blank" rel="noopener">ArXiv</a>
+              <span class="dot">·</span>
+              <a href="https://muzhancun.github.io/preprints/DROL/" target="_blank" rel="noopener">Project</a>
+            </p>
+          </div>
+        </li>
+
+        <!-- 2. Mahjong Robot System -->
+        <li class="pub">
+          <a class="pub__thumb" href="https://mahjong-robot-system.github.io/" target="_blank" rel="noopener">
+            <img src="assets/papers/mahjong.png" alt="Mahjong Robot System teaser" loading="lazy" />
+          </a>
+          <div class="pub__body">
+            <h3 class="pub__title">
+              <a href="https://mahjong-robot-system.github.io/" target="_blank" rel="noopener">
+                System Design for Maintaining Internal State Consistency in Long-Horizon Robotic Tabletop Games
+              </a>
+            </h3>
+            <p class="pub__authors">
+              <strong>Guangyu Zhao</strong>, Ceyao Zhang, Chengdong Ma, Tao Wu, Yiyang Song, Haoxuan Ru, Yifan Zhong, Ruilin Yan, Lingfeng Li, Ruochong Li, Yu Li, Xuyuan Han, Yun Ding, Ruizhang Jiang, Xiaochuan Zhang, Yichao Li, Yuanpei Chen<sup>✉</sup>, Yaodong Yang<sup>✉</sup>, Yitao Liang<sup>✉</sup>
+            </p>
+            <p class="pub__venue">
+              <span class="venue venue--review">Under review at IROS 2026</span>
+            </p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2603.25405" target="_blank" rel="noopener">ArXiv</a>
+              <span class="dot">·</span>
+              <a href="https://mahjong-robot-system.github.io/" target="_blank" rel="noopener">Project</a>
+            </p>
+          </div>
+        </li>
+
+        <!-- 3. PGT -->
+        <li class="pub">
+          <a class="pub__thumb" href="https://preference-goal-tuning.github.io/" target="_blank" rel="noopener">
+            <img src="assets/papers/pgt.png" alt="Preference Goal Tuning teaser" loading="lazy" />
+          </a>
+          <div class="pub__body">
+            <h3 class="pub__title">
+              <a href="https://preference-goal-tuning.github.io/" target="_blank" rel="noopener">
+                Preference Goal Tuning: Post-Training as Latent Control for Frozen Policies
+              </a>
+            </h3>
+            <p class="pub__authors">
+              <strong>Guangyu Zhao<sup>*</sup></strong>, Kewei Lian<sup>*</sup>, Haoxuan Ru<sup>*</sup>, Borong Zhang<sup>*</sup>, Haowei Lin, Zhancun Mu, Haobo Fu, Qiang Fu, Shaofei Cai, Zihao Wang, Yitao Liang<sup>✉</sup>
+            </p>
+            <p class="pub__venue">
+              <span class="venue venue--accepted">ICML 2026</span>
+            </p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2412.02125" target="_blank" rel="noopener">ArXiv</a>
+              <span class="dot">·</span>
+              <a href="https://preference-goal-tuning.github.io/" target="_blank" rel="noopener">Project</a>
+            </p>
+          </div>
+        </li>
+
+        <!-- 4. AbstainEQA -->
+        <li class="pub">
+          <a class="pub__thumb" href="https://abstaineqa.github.io/" target="_blank" rel="noopener">
+            <img src="assets/papers/abstaineqa.jpg" alt="AbstainEQA teaser" loading="lazy" />
+          </a>
+          <div class="pub__body">
+            <h3 class="pub__title">
+              <a href="https://abstaineqa.github.io/" target="_blank" rel="noopener">
+                When Robots Should Say &ldquo;I Don&rsquo;t Know&rdquo;: Benchmarking Abstention in Embodied Question Answering
+              </a>
+            </h3>
+            <p class="pub__authors">
+              Tao Wu, Chuhao Zhou, <strong>Guangyu Zhao</strong>, Haozhi Cao, Yewen Pu, Jianfei Yang<sup>✉</sup>
+            </p>
+            <p class="pub__venue">
+              <span class="venue venue--accepted">CVPR 2026 Highlight</span>
+            </p>
+            <p class="pub__links">
+              <a href="https://arxiv.org/abs/2512.04597" target="_blank" rel="noopener">ArXiv</a>
+              <span class="dot">·</span>
+              <a href="https://abstaineqa.github.io/" target="_blank" rel="noopener">Project</a>
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================ TALKS ============================ -->
+    <section id="talks" class="section">
+      <h2>🎤&nbsp;&nbsp;Technical Presentations</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">Jul 2025</span>
+          <span class="timeline__body">
+            <strong>Post-training VLA Models for Long-Horizon Tasks</strong>,
+            <span class="timeline__where">NVIDIA</span>
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============================ INDUSTRY EXPERIENCE ============================ -->
+    <section id="experience" class="section">
+      <h2>💼&nbsp;&nbsp;Industry Experience</h2>
+      <ol class="entry-cards">
+        <li class="entry-card">
+          <div class="entry-card__logo">
+            <img src="assets/logos/psibot.svg" alt="PsiBot logo" />
+          </div>
+          <div class="entry-card__body">
+            <p class="entry-card__date">Mar 2025 &mdash; Present</p>
+            <h3 class="entry-card__title">PKU&ndash;PsiBot Joint Lab</h3>
+            <p class="entry-card__where">PsiBot</p>
+          </div>
+        </li>
+        <li class="entry-card">
+          <div class="entry-card__logo">
+            <img src="assets/logos/tencent.svg" alt="Tencent logo" />
+          </div>
+          <div class="entry-card__body">
+            <p class="entry-card__date">Jun 2023 &mdash; Aug 2023</p>
+            <h3 class="entry-card__title">TEG</h3>
+            <p class="entry-card__where">Tencent</p>
+          </div>
+        </li>
+        <li class="entry-card">
+          <div class="entry-card__logo">
+            <img src="assets/logos/microsoft.svg" alt="Microsoft logo" />
+          </div>
+          <div class="entry-card__body">
+            <p class="entry-card__date">May 2022 &mdash; Aug 2022</p>
+            <h3 class="entry-card__title">IEG, Microsoft Research Asia</h3>
+            <p class="entry-card__where">Microsoft</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================ AWARDS ============================ -->
+    <section id="awards" class="section">
+      <h2>🏆&nbsp;&nbsp;Awards &amp; Honors</h2>
+      <ul class="timeline">
+        <li>
+          <span class="timeline__date">2026</span>
+          <span class="timeline__body">
+            <strong>ModelScope EAI-100 Annual Top-10 Demo</strong>
+          </span>
+        </li>
+        <li>
+          <span class="timeline__date">2021</span>
+          <span class="timeline__body">
+            <strong>Comprehensive Excellence Scholarship</strong>,
+            <span class="timeline__where">Tsinghua University</span>
+          </span>
+        </li>
+        <li>
+          <span class="timeline__date">2021</span>
+          <span class="timeline__body">
+            <strong>Academic &amp; Social Service Excellence Scholarship</strong>,
+            <span class="timeline__where">Tsinghua University</span>
+          </span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ============================ EDUCATION ============================ -->
+    <section id="education" class="section">
+      <h2>🏫&nbsp;&nbsp;Education</h2>
+      <ol class="entry-cards">
+        <li class="entry-card">
+          <div class="entry-card__logo">
+            <img src="assets/logos/PKU.svg" alt="Peking University logo" />
+          </div>
+          <div class="entry-card__body">
+            <p class="entry-card__date">Sep 2024 &mdash; Present</p>
+            <h3 class="entry-card__title">Ph.D., School of Intelligence Science and Technology</h3>
+            <p class="entry-card__where">Peking University</p>
+          </div>
+        </li>
+        <li class="entry-card">
+          <div class="entry-card__logo">
+            <img src="assets/logos/THU.svg" alt="Tsinghua University logo" />
+          </div>
+          <div class="entry-card__body">
+            <p class="entry-card__date">Sep 2020 &mdash; Jun 2024</p>
+            <h3 class="entry-card__title">B.E., Department of Computer Science and Technology</h3>
+            <p class="entry-card__where">Tsinghua University</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================ FOOTER ============================ -->
+    <footer class="footer">
+      <p>&copy; <span id="year">2026</span> Guangyu Zhao. Last updated May 2026.</p>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    (function () {
+      var root = document.documentElement;
+      var btn = document.getElementById('theme-toggle');
+      var media = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function current() {
+        var explicit = root.getAttribute('data-theme');
+        if (explicit === 'light' || explicit === 'dark') return explicit;
+        return media.matches ? 'dark' : 'light';
+      }
+
+      function reflect() {
+        var t = current();
+        btn.setAttribute('aria-label',
+          t === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        btn.setAttribute('aria-checked', t === 'dark' ? 'true' : 'false');
+        btn.dataset.mode = t;
+      }
+
+      btn.addEventListener('click', function () {
+        var next = current() === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+        reflect();
+      });
+
+      media.addEventListener('change', reflect);
+      reflect();
+    })();
+  </script>
+</body>
+</html>
